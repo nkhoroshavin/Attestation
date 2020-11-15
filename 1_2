@@ -1,0 +1,30 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+
+float a, b, c;
+setlocale(LC_ALL, "Russian");
+cout << " Введите  2 числа:  ";
+cin >> a >> b;
+
+if (b == 0){
+cout << "На 0 делить нельзя  "<< endl;
+}
+
+if (a == 0){
+c = 0;
+cout << c;
+}
+
+if (a!=0&&b!=0) {
+c = a/b;
+cout << "Ответ: "<< c ;
+}
+
+
+return 0;
+} 
