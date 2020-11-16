@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 int a, b, c;
-cout << " Vvedite 3 4isla: ";
+cout << " Введите три числа: ";
 cin >> a >> b >> c;
 
 int min = a;
